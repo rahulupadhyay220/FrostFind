@@ -1,2 +1,2 @@
 # FrostFind
-FrostFind is a Review analyzer hyperlocal search and discovery and multi truncational platform
+FrostFind is a Review analyzer hyperlocal search and discovery and multi transectional platform
