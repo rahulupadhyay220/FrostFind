@@ -1,4 +1,0 @@
-[
-  "tests/test_pipeline.py::test_feature_extractor_and_synthetic",
-  "tests/test_pipeline.py::test_preprocess"
-]
