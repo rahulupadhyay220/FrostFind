@@ -52,6 +52,15 @@ Thumbs.db
 # Project specific
 /FrostFind/backend/Classifier/models/*.joblib
 /FrostFind/external libraries/
+/external libraries/
+/node_modules/
+/bower_components/
+
+# Dependencies and package files
+package-lock.json
+yarn.lock
+poetry.lock
+Pipfile.lock
 
 # Logs
 *.log
