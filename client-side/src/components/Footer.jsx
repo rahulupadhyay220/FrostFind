@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='lg:px-10 px-5 py-15 bg-[#1c2541] text-white'>
-            <div className='flex lg:flex-row flex-col justify-between px-5'>
-                <div>
+            <div className='flex lg:flex-row md:flex-row flex-col justify-between lg:px-5'>
+                <div className='md:w-1/5 lg:w-auto'>
                     <Link to={'/'}>
                         <img className='lg:w-60 w-45' src="/footer-Logo.png" alt="logo" />
                     </Link>
                     <p className='text-gray-400'>Your shield against fake reviews.</p>
                 </div>
-                <div className='my-4 lg:my-0'>
+                <div className='my-4 md:my-0 lg:my-0 md:w-1/5 lg:w-auto'>
                     <h3 className='lg:text-2xl md:text-2xl text-xl'>Product</h3>
                     <ul className='mt-3 w-fit'>
                         <li className='text-gray-300 hover:text-blue-400 transition-all'>Explore</li>
@@ -25,7 +25,7 @@ const Footer = () => {
                         <li className='text-gray-300 hover:text-blue-400 transition-all'>Marketplace Widget</li>
                     </ul>
                 </div>
-                <div>
+                <div className='md:w-1/6 lg:w-auto'>
                     <h3 className='lg:text-2xl md:text-2xl text-xl'>Company</h3>
                     <ul className='mt-3 w-fit'>
                         <li className='text-gray-300 hover:text-blue-400 transition-all'>About Us</li>
@@ -34,7 +34,7 @@ const Footer = () => {
                         <li className='text-gray-300 hover:text-blue-400 transition-all'>Careers</li>
                     </ul>
                 </div>
-                <div className='my-4 lg:my-0'>
+                <div className='my-4 md:my-0 lg:my-0 md:w-1/6 lg:w-auto'>
                     <h3 className='lg:text-2xl md:text-2xl text-xl'>Trust & Security</h3>
                     <ul className='mt-3 w-fit'>
                         <li className='text-gray-300 hover:text-blue-400 transition-all'>Security</li>
@@ -43,7 +43,7 @@ const Footer = () => {
                         <li className='text-gray-300 hover:text-blue-400 transition-all'>Accessibility</li>
                     </ul>
                 </div>
-                <div>
+                <div className='md:w-1/6 lg:w-auto'>
                     <h3 className='lg:text-2xl md:text-2xl text-xl'>Connect</h3>
                     <ul className='mt-3 flex gap-4'>
                         <li className='text-gray-300 hover:text-blue-400 transition-all'><MailOutlineIcon /></li>
