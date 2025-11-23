@@ -5,3 +5,17 @@
 *{
   font-family: "Outfit", sans-serif !important;
 }
+
+#menubar{
+  display: none !important;
+}
+
+@media (width <= 800px) {
+  #menubar{
+    display: block !important;
+  }
+
+  #nav-link{
+    display: none !important;
+  }
+}
