@@ -10,6 +10,10 @@
   display: none !important;
 }
 
+li{
+  cursor: pointer !important;
+}
+
 @media (width <= 800px) {
   #menubar{
     display: block !important;
