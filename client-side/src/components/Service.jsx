@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <div className='lg:px-10 px-5 my-10 lg:w-full md:w-full w-100 flex lg:justify-evenly md:justify-evenly items-center lg:flex-row md:flex-row flex-col'>
+    <div className='lg:px-10 my-10 lg:w-full md:w-full w-90 m-auto flex lg:justify-evenly md:justify-evenly items-center lg:flex-row md:flex-row flex-col'>
       <div className='p-5 lg:p-0 md:p-0 w-fit'>
         <p className='text-5xl text-blue-500 font-medium'>10M +</p>
         <p className='text-gray-500'>Reviews Analyzed</p>
