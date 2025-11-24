@@ -18,6 +18,16 @@ li{
   width: 18px !important;
 }
 
+#shopBtn > Button:first-child{
+  background-color: white;
+  color: #4361ee;
+}
+
+#shopBtn > Button:last-child{
+  border-color: white;
+  color: white;
+}
+
 @media (width <= 800px) {
   #menubar{
     display: block !important;
