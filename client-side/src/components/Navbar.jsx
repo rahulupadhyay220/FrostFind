@@ -13,15 +13,15 @@ const Navbar = () => {
                 <MenuIcon />
             </div>
             <div id='nav-link' className='w-180 flex justify-between'>
-                <ul className='flex gap-10 items-center'>
+                <ul className='flex gap-10'>
                     <Link to={'/'}>
-                        <li className='text-[18px] hover:text-blue-600 transition-all'>Home</li>
+                        <li className='text-xl hover:text-blue-600 transition-all'>Home</li>
                     </Link>
                     <Link to={'/categories'}>
-                        <li className='text-[18px] hover:text-blue-400 transition-all'>Categories</li>
+                        <li className='text-xl hover:text-blue-400 transition-all'>Categories</li>
                     </Link>
-                    <li className='text-[18px] hover:text-blue-400 transition-all'>Dashboard</li>
-                    <li className='text-[18px] hover:text-blue-400 transition-all'>Services</li>
+                    <li className='text-xl hover:text-blue-400 transition-all'>Dashboard</li>
+                    <li className='text-xl hover:text-blue-400 transition-all'>Services</li>
                 </ul>
                 <div className='flex gap-5'>
                     <Button variant="contained">List Your Business</Button>
